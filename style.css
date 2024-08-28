@@ -34,11 +34,13 @@ align-items: center;
 .Box{
     height: 18vmin;
     width: 18vmin;
+    color: black;
+    font-size: x-large;
     justify-content: center;
-    background-color: gold;
+    background-color: #fffacd;
     border-radius: 1rem;
     border: none;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   
 }
 
@@ -67,6 +69,15 @@ align-items: center;
 }
 
 .msg-Container{
-    height: 18vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
     
 }
+.hide{
+    display: none;
+}
+
